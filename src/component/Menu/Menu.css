@@ -1,0 +1,212 @@
+.menu {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_intro {
+    margin-top: 80px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    background-image: url(/public/images/menuintro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: inset 0px 0px 400px rgb(20, 20, 20);
+}
+
+.menu_intro h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu_intro p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#menu_heading {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #000000;
+
+}
+.categoryHead{
+    position: relative;
+}
+.scroll_btn{
+    margin-right:1em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
+.scroll_btn button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    border: none;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#scroll_right{
+    background-image:url(/public/icons/icons8-right-arrow-30.png);
+}
+#scroll_left{
+    background-image: url(/public/icons/icons8-left-arrow-30.png);
+}
+
+.category_item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 8px 16px;
+    overflow-x: auto;
+    scrollbar-width:none;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    border-radius: 4px;
+    gap: 2%;
+    transition: background-color 0.3s ease;
+}
+
+.category_list {
+    margin: 10px 0px;
+    color: #000000;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category_list div {
+    height: 140px;
+    width: 140px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 20px 10px rgba(48, 47, 47, 0.419));
+    transition: all 0.15s ease-in-out;
+}
+.category_list div:hover{
+    transform: scale(1.1);
+    transition: all 0.15s ease-in-out;
+}
+
+
+#veg {
+    background-image: url(/public/images/paneerKolhapuri.png);
+}
+
+#biryani {
+    background-image: url(/public/images/biryani2.png);
+}
+
+#nonveg {
+    background-image: url(/public/images/Nonveg.png);
+}
+
+#all {
+    background-image: url(/public/images/meal1.png);
+}
+
+#mutton {
+    background-image: url(/public/images/mutton.png);
+}
+
+#starter {
+    background-image: url(/public/images/chickenLolipop.png);
+}
+
+#curry {
+    background-image: url(/public/images/curry.png);
+}
+#chinese{
+    background-image: url(/public/images/noodles2.png);
+}
+#chicken{
+    background-image: url(/public/images/starter2.png);
+}
+#paneer{
+    background-image: url(/public/images/Paneer.png);
+}
+#egg{
+    background-image: url(/public/images/egg.png);
+}
+
+.category_name {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/* menu item */
+.menu_items {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 8px;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 480px) {
+
+    /* 768px */
+    .menu_intro {
+        height: 30vh;
+        box-shadow: inset 0px 0px 600px rgb(20, 20, 20);
+    }
+
+    .menu_intro p {
+        font-size: 12px;
+    }
+
+    .menu_items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu h1 {
+        font-size: 24px;
+    }
+    .category_item{
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-y:auto;
+        overflow-x: scroll;
+        scrollbar-width: 1px solid grey;
+
+    }
+}

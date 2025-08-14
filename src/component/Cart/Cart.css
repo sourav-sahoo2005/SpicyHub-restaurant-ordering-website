@@ -1,0 +1,135 @@
+.cart {
+    padding-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.cart h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #b90101;
+    margin-bottom: 20px;
+}
+
+.cart_items {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cart_items li {
+    margin: 10px 0;
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#remove_item {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cart_item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+#itemNameQunt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.cart_item span {
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.cart_buttons {
+    margin: 20px 0px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.cart button {
+    padding: 10px 20px;
+    background-color: #b90101;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.cart button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cart button:hover {
+    background-color: #a80000;
+}
+
+.cart_total {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #b90101;
+}
+
+@media (max-width: 480px) {
+    .cart_item>span {
+        font-size: 1em;
+        padding: 0px 5px;
+
+    }
+
+    .cart_item p {
+        font-size: 0.9em;
+    }
+
+    #itemNameQunt {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+
+}

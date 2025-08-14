@@ -1,0 +1,74 @@
+.loading {
+    padding: 0px 10px;
+    position: fixed;
+    top:83px;
+    right:0px;
+    height: 60px;
+    width: 250px;
+    text-align: start;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    animation: loading_popup 0.4s cubic-bezier(.53, -0.44, .45, 1.46);
+    z-index: 1;
+    background-image: url(/public/images/popup-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loading_text {
+    font-size: 14px;
+
+
+}
+
+.loading>div {
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+#animate_cart {
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    height: 45px;
+    width: 45px;
+    background-image: url(/public/icons/delivery-boy-riding-scooter.png);
+    background-position: center;
+    background-size: contain;
+    animation: shipping_cart 1.25s ease-in-out 0.5s;
+    z-index: 1;
+
+
+}
+
+@keyframes shipping_cart {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(250px);
+    }
+}
+
+@keyframes loading_popup { 
+
+    from{
+        transform: translateX(250px);
+        opacity: 0%;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+
+}
