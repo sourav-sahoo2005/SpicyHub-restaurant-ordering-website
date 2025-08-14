@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/SpicyHub-restaurant-ordering-website/static/css/main.324ea662.css",
+    "main.js": "/SpicyHub-restaurant-ordering-website/static/js/main.2b5a8254.js",
+    "static/js/453.8eb48914.chunk.js": "/SpicyHub-restaurant-ordering-website/static/js/453.8eb48914.chunk.js",
+    "static/media/payment.jpg": "/SpicyHub-restaurant-ordering-website/static/media/payment.e461cf5ba2b1e0644cc0.jpg",
+    "static/media/mobile-payments-mobile-scanning-payments-face-face-payments.jpg": "/SpicyHub-restaurant-ordering-website/static/media/mobile-payments-mobile-scanning-payments-face-face-payments.d8761a147c6ba568a346.jpg",
+    "static/media/chickenLolipop.png": "/SpicyHub-restaurant-ordering-website/static/media/chickenLolipop.6f4e7bac1cd9e18677a3.png",
+    "static/media/noodles2.png": "/SpicyHub-restaurant-ordering-website/static/media/noodles2.318cbade16b284164a98.png",
+    "static/media/paneerKolhapuri.png": "/SpicyHub-restaurant-ordering-website/static/media/paneerKolhapuri.71201792cd54d6fcd4e7.png",
+    "static/media/5km radius.jpg": "/SpicyHub-restaurant-ordering-website/static/media/5km radius.7c9bd0e6cae1eda41ce0.jpg",
+    "static/media/about-intro.jpg": "/SpicyHub-restaurant-ordering-website/static/media/about-intro.f480e4ce70126327b2f9.jpg",
+    "static/media/less-time.jpg": "/SpicyHub-restaurant-ordering-website/static/media/less-time.c3a86c3bf67cff616061.jpg",
+    "static/media/Nonveg.png": "/SpicyHub-restaurant-ordering-website/static/media/Nonveg.d133e42863b73e124d94.png",
+    "static/media/easy-to-order.jpg": "/SpicyHub-restaurant-ordering-website/static/media/easy-to-order.4a4e8eb287e5a4ba9fcf.jpg",
+    "static/media/mutton.png": "/SpicyHub-restaurant-ordering-website/static/media/mutton.6efe0de696d0582bc0c7.png",
+    "static/media/biryani2.png": "/SpicyHub-restaurant-ordering-website/static/media/biryani2.017ae90a904e2685d652.png",
+    "static/media/meal1.png": "/SpicyHub-restaurant-ordering-website/static/media/meal1.82d3d4768cc11eed1d5e.png",
+    "static/media/curry.png": "/SpicyHub-restaurant-ordering-website/static/media/curry.93d2cf2223494af6d996.png",
+    "static/media/home_intro.jpg": "/SpicyHub-restaurant-ordering-website/static/media/home_intro.b80dedba2fee4b860748.jpg",
+    "static/media/menuintro.jpg": "/SpicyHub-restaurant-ordering-website/static/media/menuintro.c8331659abe4bdcb0b9f.jpg",
+    "static/media/starter2.png": "/SpicyHub-restaurant-ordering-website/static/media/starter2.5e7800968c5512670d90.png",
+    "static/media/customer.jpg": "/SpicyHub-restaurant-ordering-website/static/media/customer.d774c69367b10b531620.jpg",
+    "static/media/delivery-boy-riding-scooter.png": "/SpicyHub-restaurant-ordering-website/static/media/delivery-boy-riding-scooter.17e6671a30ebf4cca929.png",
+    "static/media/Paneer.png": "/SpicyHub-restaurant-ordering-website/static/media/Paneer.a6ee98f4ff85456b05c3.png",
+    "static/media/egg.png": "/SpicyHub-restaurant-ordering-website/static/media/egg.6a2c60eb433bb5947598.png",
+    "static/media/popup-background.jpg": "/SpicyHub-restaurant-ordering-website/static/media/popup-background.b4483acb26221c8b61c1.jpg",
+    "static/media/term_and_cond.jpg": "/SpicyHub-restaurant-ordering-website/static/media/term_and_cond.9ab2044261ec3e9c80d8.jpg",
+    "static/media/cash-on-delivery.jpg": "/SpicyHub-restaurant-ordering-website/static/media/cash-on-delivery.054a6270745206d87c36.jpg",
+    "static/media/special-offer.jpeg": "/SpicyHub-restaurant-ordering-website/static/media/special-offer.3bdfccc035f71aef59da.jpeg",
+    "index.html": "/SpicyHub-restaurant-ordering-website/index.html",
+    "main.324ea662.css.map": "/SpicyHub-restaurant-ordering-website/static/css/main.324ea662.css.map",
+    "main.2b5a8254.js.map": "/SpicyHub-restaurant-ordering-website/static/js/main.2b5a8254.js.map",
+    "453.8eb48914.chunk.js.map": "/SpicyHub-restaurant-ordering-website/static/js/453.8eb48914.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.324ea662.css",
+    "static/js/main.2b5a8254.js"
+  ]
+}
