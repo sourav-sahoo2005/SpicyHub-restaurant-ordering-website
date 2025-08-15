@@ -1,3 +1,29 @@
+# SpicyHub - Restaurant ordering website
+An application for ordering food from a particular restaurant. This application is easy to use and provides a seamless experience for users to browse menus, customize their orders, and track their delivery status after completion of backend integration because this project was completely frontend.
+
+## 📸 Screenshots (Mobile View)
+![alt text](Picsart_25-07-16_11-44-18-078.jpg)
+this is an AI generated image of the screenshot
+## 🔑 Key Features
+ - User-friendly interface for easy navigation
+ - Menu browsing with detailed item descriptions
+ - Customizable orders with various options
+ - Real-time order tracking (post-backend integration)
+
+
+##  🛠️ Technology Stack
+ - React js
+ - HTML
+ - CSS
+ - JavaScript
+ 
+## Visit Website
+ 🌐 [SpicyHub](https://spicyhub.netlify.app)
+
+## Visit Repository
+ 🌐 [Github Repository](https://github.com/sourav-sahoo2005/SpicyHub-restaurant-ordering-website)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
