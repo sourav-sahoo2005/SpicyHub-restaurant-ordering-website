@@ -21,7 +21,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="preconnect" href="https://fonts.google.com/">
-   <link rel="preconnect" href="/">
+  <link rel="preconnect" href="/">
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>SpicyHub | a trusted delivery app</title>
 
@@ -30,6 +30,15 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
+
+  <script>
+    const redirectPath = sessionStorage.getItem("redirectPath");
+    if (redirectPath) {
+      window.history.replaceState({}, "", redirectPath);
+      sessionStorage.removeItem("redirectPath");
+    }
+  </script>
 </body>
 
 </html>
